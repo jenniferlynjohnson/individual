@@ -1,0 +1,395 @@
+/*basic layout styling below*/
+
+body {
+
+	background-color:black;
+
+	height:100vh;
+
+	width: 100vw;
+
+	display:flex;
+
+	flex-wrap:wrap;
+
+}
+
+
+
+
+
+}
+
+
+
+.titlerow{
+
+	height:20vh;
+
+	width:100vh;
+
+}
+
+
+
+.row{
+
+	height:40vh;
+
+	width:100vw;
+
+	display:flex;
+
+	flex-wrap:wrap;
+
+}
+
+
+
+.row2{
+
+	height:40vh;
+
+	width:100vw;
+
+	display:flex;
+
+	flex-wrap:wrap;
+
+}
+
+
+
+.box{
+
+	height:100%;
+
+	width:20%;
+
+}
+
+
+
+.pink{
+
+	background-color:pink;
+
+}
+
+
+
+.purple{
+
+	background-color:purple;
+
+}
+
+
+
+/*Images for purple boxes below*/
+
+
+
+img {
+
+    padding-top: 10%;
+
+    padding-right: 10p%;
+
+    padding-bottom: 10%;
+
+    padding-left: 10%;
+
+    width: 60%;
+
+	height: 80%;
+
+	margin-right:5%;
+
+	margin-left:5%;
+
+}
+
+
+
+p {
+
+	padding-top: 10%;
+
+    padding-right: 55p%;
+
+    padding-bottom: 10%;
+
+    padding-left: 55%;
+
+	
+
+}
+
+
+
+/*this is a tester for the hover*/
+
+
+
+
+
+.container{
+
+	position:relative;
+
+	width:20vw;
+
+	height:100%;
+
+}
+
+
+
+.overlay{
+
+	 position: absolute;
+
+  bottom: 100%;
+
+  left: 0;
+
+  right: 0;
+
+  background-color:	#FAEBD7;
+
+  overflow: hidden;
+
+  width: 100%;
+
+  height:0;
+
+  transition: .5s ease;
+
+}
+
+
+
+.container:hover .overlay{
+
+	 bottom: 0;
+
+     height: 100%;
+
+	 width: 100%;
+
+}
+
+
+
+.text{
+
+	 white-space: nowrap; 
+
+  color: black;
+
+  font-size: 20px;
+
+  position: absolute;
+
+  overflow: hidden;
+
+  top: 50%;
+
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  -ms-transform: translate(-50%, -50%);
+
+}
+
+
+
+.box{
+
+	height: 100%;
+
+	width:100%;
+
+	flex:flex-wrap;
+
+}
+
+
+
+.box2{
+
+	height:100%;
+
+	width:100%;
+
+	flex-flex-wrap;
+
+}
+
+
+
+/*this code above is for the hovering images*/
+
+/*The code below is for the dropdown menu*/
+
+.dropbtn {
+
+    background-color: pink;
+
+    color: white;
+
+    padding: 16px;
+
+    font-size: 16px;
+
+    border: none;
+
+    cursor: pointer;
+
+}
+
+
+
+.dropdown {
+
+    position: relative;
+
+    display: inline-block;
+
+}
+
+
+
+.dropdown-content {
+
+    display: none;
+
+    position: absolute;
+
+    background-color: pink;
+
+    min-width: 160px;
+
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+    z-index: 1;
+
+}
+
+
+
+.dropdown-content a {
+
+    color: black;
+
+    padding: 12px 16px;
+
+    text-decoration: none;
+
+    display: block;
+
+}
+
+
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+
+
+.dropdown:hover .dropdown-content {
+
+    display: block;
+
+}
+
+
+
+.dropdown:hover .dropbtn {
+
+    background-color: purple;
+
+}
+
+/*everything above is for the dropdown menu*/
+
+/*this code below shows how to incorperate media queries*/
+
+@media screen and (max-width:800px){
+
+	
+
+	.titlerow{
+
+		width:100%;
+
+		height:.25vh;
+
+	}
+
+	
+
+	.row{
+
+		width:100vw;
+
+	     height:75vh;
+
+		 display:block;}
+
+	
+
+	.row2{width:50vw;
+
+	        height:75vh;
+
+			display:block;}
+
+	
+
+	.box{width:50vw;
+
+	     height:50vh;
+
+		 display:block;}
+
+		 
+
+    .box2{height:50vh;
+
+			width:50vw;
+
+			display:block;
+
+			
+
+	
+
+}
+
+    .container{height:50vh;
+
+           width:50vw;
+
+	    
+
+}
+
+
+
+	
+
+	img{width:30vw;
+
+	    height:30vh;
+
+        padding:10px;
+
+	}
+
+	
+
+	
+
+	}
